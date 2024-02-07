@@ -1,5 +1,5 @@
  
- # My messy NeoVim config.
+ # NeoVim config.
 
  ### There are many things that are probably not ideal:
  
