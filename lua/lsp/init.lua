@@ -14,6 +14,7 @@ require'lspconfig'.tsserver.setup {}
 require'lspconfig'.rust_analyzer.setup{}
 require'lspconfig'.pyright.setup{}
 
+
 require'lspconfig'.lua_ls.setup {
   on_init = function(client)
     local path = client.workspace_folders[1].name

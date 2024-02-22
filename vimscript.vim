@@ -2,12 +2,15 @@ call plug#begin()
 "Plug 'vim-airline/vim-airline'
 "Plug 'vim-airline/vim-airline-themes'
 Plug 'nvim-lualine/lualine.nvim'
+Plug 'j-hui/fidget.nvim'
 
 "File tree + icons
 Plug 'nvim-tree/nvim-web-devicons'
-Plug 'nvim-tree/nvim-tree.lua'
 Plug 'vimwiki/vimwiki'
+
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"
+Plug 'folke/neodev.nvim'
 
 Plug 'AlexvZyl/nordic.nvim', { 'branch': 'main' }
 Plug 'navarasu/onedark.nvim'
@@ -16,6 +19,8 @@ Plug 'sainnhe/edge'
 Plug 'arzg/vim-colors-xcode'
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter-context'
+
 
 Plug 'williamboman/mason.nvim'
 Plug 'williamboman/mason-lspconfig.nvim'
@@ -69,4 +74,4 @@ syntax on
 set number
 set nocompatible
 filetype plugin on
-
+set fillchars=eob:\-
