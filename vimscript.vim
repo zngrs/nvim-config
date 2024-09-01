@@ -28,7 +28,6 @@ Plug 'williamboman/mason-lspconfig.nvim'
 
 Plug 'kelly-lin/ranger.nvim'
 
-Plug 'mhinz/vim-startify'
 
 Plug 'lervag/vimtex'
 
